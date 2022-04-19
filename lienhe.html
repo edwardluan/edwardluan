@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/95619c19a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a id="#top" href="trangchu.html"><img src="logo.png" alt="logo"></a>
+        <img id="header-img1" src="images/header-img1.png" alt="">
+        <img id="header-img2" src="images/header-img2.png" alt="">
+        <img id="header-img3" src="images/header-img3.png" alt="">
+		<a id="#top" href="trangchu.html" ><img src="logo.png" alt=""></a>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giơi Thiệu</a>
+            <a href="sanpham.html">Sản Phẩm</a>
+            <a href="tintuc.html">Tin Tức</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        </nav>
+        <div class="buy">
+            <form method="get" action="#">
+                <div class="search-mark">
+                    <input type="search" placeholder="Nhập nội dung cần tìm...">
+                    <button><span class="fa fa-search"></span></button>
+                    <button><i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main class="one-col">
+       <article>
+           
+           <section class="lienhe">
+                <h1>Liên hệ</h1>
+               <p><i class="fa fa-solid fas fa-map-marker-alt" id="location"></i>
+                <b>Địa chỉ: 0123, Tòa Nhà ABC, TP.Cần Thơ. </b>
+                Nếu bạn có góp ý, vui lòng xin liên hệ
+                bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới.
+                xin cảm ơn.
+            </p>   
+           </section>
+           <section class="gopy">
+                <form action="" method="post" enctype="text/plain">
+                        <legend><label for="gy"><h1>Góp ý</h1></label></legend>
+                        <table>
+                            <tr>
+                                <td><label for="gy"><i class="fa fa-solid fa-user"></i></label>
+                                    <input id="gy" type="text" placeholder="vui lòng nhập họ tên" required>
+                                </td>
+                            </tr>
+                            <tr>
+                            <td><label for="email"><i class="fa fa-solid fa-envelope"></i></label>
+                                <input id="email" type="email" placeholder="vui lòng nhập email" required>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td><label for="chude"><i class="fa fa-solid fa-list"></i></label>
+                                    <select name="" id="chude">
+                                        <option value="">Về sản phẩm/Dịch vụ</option>
+                                        <option value="">Về ưu đãi thành viên</option>
+                                        <option value="">Về tin tuyển dụng</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="noidung"><i class="fa fa-solid fa-file"></i></label>
+                                    <textarea name="" id="noidung" cols="50" rows="7" placeholder="Nội dung cần liên hệ"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><button type="submit">Gửi</button></td>
+                            </tr>
+                        </table>
+                </form>
+           </section>
+       </article>
+    </main>
+    <footer>
+        <p>&copy; Bản quyền thuộc về FreezeVN.
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#top"><img class="top" src="top.png" alt="top"></a></p>
+    </footer>
+</body>
+</html>

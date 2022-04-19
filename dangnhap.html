@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/95619c19a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a id="#top" href="trangchu.html"><img src="logo.png" alt="logo"></a>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giơi Thiệu</a>
+            <a href="sanpham.html">Sản Phẩm</a>
+            <a href="tintuc.html">Tin Tức</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        <div class="header-img">
+            <img src="header-img1.png" alt="" id="header-img1">
+            <img src="header-img2.png" alt="" id="header-img2">
+            <img src="header-img3.png" alt="" id="header-img3">
+        </div>
+        <div class="buy">
+            <form method="get" action="#">
+                <div class="search-mark">
+                    <input type="search" placeholder="Nhập nội dung cần tìm...">
+                    <button><span class="fa fa-search"></span></button>
+                    <button><i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </form>
+        </div>
+        </nav>
+    </header>
+    <main class="one-col">
+       <form action="" method="post" enctype="application/x-www-form-urlencoded" autocomplete="off">
+               <legend><label for="dn"><h1>Đăng Nhập</h1></label></legend>
+               <table class="login" cellspacing = "2px">
+                   <tr>
+                       <td><img width="200px" src="dangnhap/userlogin.png" alt=""></td>
+                   </tr>
+                   <tr>
+                       <td><label for="email"><i class="fa fa-solid fa-envelope"></i></label>
+                        <input id="email" type="email" placeholder="vui lòng nhập email" required>
+                    </td>
+                   </tr>
+                   <tr>
+                       <td><label for="psw"><i class="fa fa-solid fa-key"></i></label>
+                        <input type="psw" placeholder="vui lòng nhập mật khẩu" name="psw" required>
+                        </td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                       <td><b>Bạn quên <a href="#">Mật Khẩu</a>? <input type="checkbox">Ghi nhớ cho lần đăng nhập sau</b></td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <button type="reset">Hủy</button>
+                           <button type="submit">Đăng nhập</button>
+                       </td>
+                       <td>
+
+                       </td>
+                   </tr>
+               </table>
+       </form>
+    </main>
+    <footer>
+        <p>&copy; Bản quyền thuộc về FreezeVN.
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#top"><img class="top" src="top.png" alt="top"></a></p>
+    </footer>
+</body>
+</html>
